@@ -1,0 +1,60 @@
+#body{
+    background-color:#f8f9fa;
+    margin: opx;
+}
+body{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"; ;
+    
+    }
+    
+    .card{
+        padding: 5px;
+        border-radius: 12px;
+        margin: 50px;
+    }
+    .card-deck{
+        margin-top: 0px;
+    }
+    p{
+        font-size: 15px;
+    
+    }
+    h5{
+        font-size: 22px;
+        font-weight: bold;
+    }
+    
+    h6{
+        overflow: hidden;
+        text-align: center;
+    }
+    #author{
+    display: flex;
+    justify-content: space-between;
+
+    }
+    .jumbotron{
+        background-color: white;
+        justify-content: center;
+        text-align: center;
+
+        }
+    
+        .jumbotron h1{
+            color: turquoise;
+            font-weight: 300;
+            font-size: 100px;
+            font-family: "Fjalla One";
+        }
+
+        .lead{
+            font-size: 25px;
+    
+
+ }
+
+  a{
+    color: black;
+
+  }
+     

@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+    <link rel="stylesheet" href="solution.css">
+  
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Fjalla One">
+    <title>IT solution</title>
+</head> 
+    <body>
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg   text-muted navbar-light bg-white fixed-top">
+                <a class="navbar-brand" class="sidenav-toggler"  onclick="resize()" data-target="#mySidenav" aria-controls="mySidenav" 
+                aria-expanded="false"
+                aria-label="Toggle navigation" data-toggle="collapse" href="#"><span style="font-size: 1.5em; color: dodgerblue;"><span style="font-size:30px;cursor:pointer" onclick="openNav()"><i class="fa fa-modx"></i></span></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="nav navbar-nav align-items-center">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#"><b><h5>IT solutions.ng</b></h5> <span class="sr-only">(current)</span></a> 
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Find a project <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Find a solution Provider <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Post a Project <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#"> My Businesses <span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto align-items-center d-none d-lg-flex" >
+                    <li class="nav-item  active">
+                        <a class="nav-link" href="#"><span style="font-size: 1.4em;"><i class="fa fa-bell-o"></i></span> 
+                        <div class="badge navb bg-primary">4</div>
+                        </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#"> <span style="font-size: 2em;"><i class="fa fa-user-circle-o text-muted"></i></span>
+                        <div class="badge navb2 bg-success">.</div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            </nav>
+            <div class="sidenav collapse show navbar-collapse" id="mySidenav" >
+                <br><br><br>
+                <a class="text-primary" href="#">Start</a>
+                   <ul>
+                       <li><i class="fa fa-qrcode"></i></span> Dashboard</li>
+                       <li><i class="fa fa-user-circle-o"></i></span> Profile</li>
+                       <li><i class="fa fa-money"></i></span> Wallet</li>
+                       <li><i class="fa fa-star-o"></i></span> Bookmark</li><br>
+                   </ul>
+                <a class="text-primary"  href="#">Project</a>
+                   <ul>
+                       <li><i class="fa fa-cc-diners-club"></i></span> My Project <span class=" bg-primary badge"> 3 </span>  </li> 
+                       <li><i class="fa fa-free-code-camp"></i></span> My Bids <span class="bg-primary badge"> 3</span> </li> 
+                       <li><i class="fa fa-cc-diners-club"></i></span> Post a Project</li><br>
+                   </ul>
+                <a class="text-primary" href="#">Business</a>
+                <ul>
+                    <li><i class="fa fa-suitcase"></i></span> Manage Business <span class="bg-primary badge"> 2 </span> </li> 
+                    <li> <li><i class="fa fa-cube"></i></span> Solution Packages</li>
+                    <li> <li> <span style="color: red;"><i class="fa fa-power-off"></i></span> Logout </li>
+                </ul>
+            </div>
+           
+            </div><br><br><br><br><br><br>
+
+
+                                         <!-- <Main-content> -->
+            <div class="container-fluid">
+                <div class=" overview row justify-content-end" id="push">
+                    
+                    <div class=" d-none nav_controller d-lg-block col-9  ">
+                        <div class="description">
+                            <div class="d-flex d-none justify-content-between align-items-center">
+                            <h2> My Bids </h2>
+                                <div class="btn-group" role="group" aria-label="Basic example">
+                                    <button type="button" class="btn btn-secondary">Dashboards.</button>
+                                    <button type="button" class="btn btn-secondary">Post Projects.</button>
+                                    <button type="button" class="btn btn-secondary">My Bids.</button>
+                                </div>
+                            </div><br>
+                        </div>
+                          
+                        <div class="tabs">
+                            <div class="tabs-item active"> 
+                            <button type="button" class="btn"> Pending Bids </button>
+                            </div>
+              
+                            <div class="tabs-item">  
+                            <button type="button" class="btn text-primary">Negotiated Bids  </button>
+                            </div>
+              
+                            <div class="tabs-item"> 
+                            <button type="button" class="btn text-primary"> Accepted Bids   </button>
+                            </div>
+              
+                            <div class="tabs-item"> 
+                            <button type="button" class="btn text-primary"> Rejected Bids </button>
+                            </div>
+                        </div> 
+                        <div class="container border"><br>
+                            <div class="card ">
+                                <div class="row">
+                                    <div class="col-9">
+                                        <div class="overall">
+                                            <div class="d-flex yellow justify-content-between align-items-center">
+                                                 <h4>Build an Android Calender App</h4>
+                                                 <h6> Pending </h6>
+                                            </div>
+                                               <p><i class="fa fa-user-o"></i> <span class="text-primary"> Alabi Johnson </span> 
+                                                &nbsp;&nbsp;&nbsp; <i class="fa fa-clock-o"></i> <span class="text-primary"> weeks </span> </p><br<br></br>
+                                               <p> Proposed Milestones</p>
+                                            </div>
+                                        <div class="card">
+                                           <div class="d-flex justify-content-between align-items-center">
+                                               <h6><i class="fa fa-window-restore"></i></span> Interface Design </h6>
+                                               <p class="marg text-muted"><i class="fa fa-calendar"></i></span> 5 days </p>
+                                           </div>
+                                           <p class="text-muted"> UI/UX Look and feel</p>
+                                        </div>
+                                        <div class="card">
+                                           <div class="d-flex justify-content-between align-items-center">
+                                               <h6><i class="fa fa-window-restore"></i></span> Finals </h6>
+                                               <p class="marg text-muted"><i class="fa fa-calendar"></i></span> 10 hours </p>
+                                           </div>
+                                           <p class=" text-muted"> I"ll Finish the remaining Features</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-3 asking align-self-center">
+                                        <h2> ₦575,000 </h2>
+                                        <p class="text-muted">Asking Price </p>
+                                        <div class="btn btn-danger btn-block"> Cancel Bid</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="d-none d-flex container-fluid  text-muted justify-content-around align-items-center">
+            <p>2019 <b>IT HUB</b> All Rights Reserved </p>
+            <div class="d-none d-lg-block">
+               <i class="fa fa-facebook"> </i> &nbsp;&nbsp;
+               <i class="fa fa-twitter"></i>  &nbsp;&nbsp;
+               <i class="fa fa-google-plus"></i>   &nbsp;&nbsp;
+               <i class="fa fa-linkedin"></i>  &nbsp;&nbsp;
+            </div>
+       </div>
+                  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- <script src="file:///C:/Users/user/Desktop/I%20T%20SOLUTION/bootstrap-4.0.0-dist/js/bootstrap.bundle.min.js.map"></script> -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+            </body>
+            </html>
